@@ -1,0 +1,288 @@
+<html>
+<head>
+<title> Contact Info </title>
+</head>
+<style>
+h2{
+  color : hsl(0, 50%, 50%);
+  font-family : verdana;
+  font-size : 500%;
+  text-align : center;
+}
+h3{
+  color : hsl(0, 20%, 40%);
+  font-family : times new roman;
+  font-size : 120%;
+  text-align : center;
+}
+img{
+  display: inline-block;
+  margin-left: 10%;
+  margin-right: auto;
+  vertical-align: text-bottom;
+  margin: 0 300px;
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+hr{
+  border-top-color: firebrick;
+}
+ul{
+  font-family: times new roman;
+  font-size: 150%;
+}
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 40px;
+  border-radius: 5px;
+}
+
+.header a.logo {
+  font-size: 30px;
+  font-weight: bold;
+  color: dimgrey;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
+button{
+    width : 60%;
+    padding : 10px 0;
+    text-align: center;
+    font-size: 100%;
+    margin: 50px 10px;
+    border-radius: 25px;
+    font-weight : bold;
+    border : 2px solid #43525;
+    background : papayawhip;
+    color: floralwhite;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background: #009688;
+    height: 100%;
+    width: 0%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}
+#contact .contact{
+  flex-direction: column;
+  max-width: 1200 px;
+  margin: 0 auto;
+}
+#contact .contact-items{
+  width: 300px;
+}
+#contact .contact-item{
+  width: 400%;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 30 px;
+  margin: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 0px 10px 0 #000209;
+  transition: .3s ease box-shadow; 
+}
+#contact .contact-item:hover{
+  box-shadow: 0px 0px 5px 0 #000209;
+}
+/*#contact .icon{
+  width: 70px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}*/
+#contact .contact-info h1{
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+#contact .contact-info h3{
+  font-size: 1.3rem;
+  line-height: 2rem;
+  font-weight: 500;
+}
+</style>
+<body style = "background-color : peachpuff;">
+<div class = "header">
+  <a href = "#default" class = "logo" > My Website </a>
+  <div class = "header-right">
+    <a class = "active" href = aboutMe.html > Homepage </a>
+    <a href = aboutMe2.html > Contact </a>
+    <a href = aboutMe1.html > About Myself </a>
+  </div>
+</div>
+
+
+<br> <h2> Contact Info </h2>
+
+<section id = "contact">
+  <div class = "contact container">
+    <div> <h1 class = "section-title">  <em> <span> info </span> <em> </h1> </div>
+    <div class = "contact-items">
+      <div class = "contact-item">
+        <!--<div class = "icon"> <img src = "phone - copy.png"> </div>-->
+        <div class = "contact-info">
+          <h1> Phone </h1>
+          <h3> 0123456789 </h3>
+        </div>
+      </div>
+      <div class = "contact-item">
+        <!--<div class = "icon"> <img src = "email.png"> </div>-->
+        <div class = "contact-info">
+          <h1> Email </h1>
+          <h3> nur.aleeya2104@gmail.com </h3>
+        </div>
+      </div>
+      <div class = "contact-item">
+        <!--<div class = "icon"> <img src = "ig.png"> </div>-->
+        <div class = "contact-info">
+          <h1> Social media </h1>
+          <h3> Instagram : @syaaaje._ </h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--
+<img src = "toye.jpeg" width="18%" height="30%" > <h4> &#160; &#160; &#160; &#160; &#160; &#9830; Tomyam is my favourite food. </h4>
+<img src = "badminton.jpeg" width="18%" height="30%" > <h4> &#160; &#160; &#160; &#160; &#160; &#9830; I like to play badminton when I have a leasure time. </h4>-->
+<!--
+<div class="row">
+  <div class="column">
+    <img src="toye.jpeg" alt="Tomyam" style="width:50%" height = "30%"> <h3> &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;&#160;&#160;&#160;&#160;&#160;&#9830; Tomyam is my favourite food. </h3>
+  </div>
+  <div class="column">
+    <img src="badminton.jpeg" alt="Badminton" style="width:50%" height = "30%">
+  </div>
+</div>-->
+
+<!--<div class = "cover">
+  <div class = "box">
+    <img src = "toye.jpeg" width="18%" height="30%">
+    <h2> Tomyam is my favourite food. </h2>
+  </div>
+  <div>
+  <div class = "box1">
+    img src = "">
+    <h2> I like to play badminton when I have a leasure time. </h2>
+  </div>
+  <div>
+  <div class = "box2">
+    img src = "">
+    <h2> jap test dulu </h2>
+  </div>
+</div>-->
+
+<!--
+<ul>
+  <li>when i fly towards you</li>
+  <li> hidden love </li>
+  <li> falling into your smile </li>
+  <li> love at night </li>
+  <li> skate into love </li>
+  <li> you are my hero </li>
+  <li> love is sweet </li>
+  <li> lighter and princess </li>
+  <li> crush </li>
+  <li> my dear guardian </li>
+  <li> our secret </li>
+  <li> hidden love </li>
+  <li> why women love </li>
+  <li> fireworks of my heart </li> 
+  <li> one and only </li>
+  <li> a river ruins through it </li>
+  <li> fake it till you make it </li>
+  <li> amidst a snowstorm of love </li>
+  <li> 19th floor </li>
+  <li> you are my desire </li>
+  <li> someday or one day </li>
+  <li> derailment </li>
+  <li>love can’t be said (movie) </li>
+  <li> my boss </li>
+  <li> moonlight </li>
+  <li> we go fast on trust </li>
+  <li> jia jia’s lovely journey </li>
+  <li> love crossed </li>
+  <li> my journey to you </li>
+  <li> the silence of the monster </li>
+  <li> nothing but you </li>
+  <li> gank your heart </li>
+  <li> rising with the wind </li>
+</ul>
+-->
+
+<p> <br> <A style ="float : right"; href = aboutMe3.html> <button type = "button" > <span> </span> <h3> back to Homepage <h3> </button> </A> </br> </p>
+
+
+</body>
+</html>
